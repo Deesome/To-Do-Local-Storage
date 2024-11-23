@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List Application</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex justify-center items-center h-screen w-full bg-blue-700">
+        <div class="bg-slate-500 w-1/2 p-[60px] shadow-xl rounded-xl">
+            <div class="flex justify-center flex-col items-center">
+                <h1 class="font-bold text-5xl mb-5">To Do List</h1>
+                <div>
+                    <input id="taskname" class="text-4xl p-4 rounded-lg" type="text" placeholder="e.g : go to the gym at 6AM">
+                    <button id="addButtton" class="text-4xl py-4 px-5 border-solid border-black border-2 rounded-lg bg-blue-700 ml-2" type="submit">Add</button>
+                </div>
+            </div>
+            <div>
+                <h2 class="flex justify-center flex-col items-center text-3xl font-semibold mt-6 mb-6">Task List</h2>
+                <ul id="task-list" class="space-y-3">
+                    
+                </ul>
+
+            </div>
+
+            
+        </div>
+        
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
